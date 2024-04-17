@@ -5,7 +5,7 @@ DataSingleton is a Python package that provides a singleton class for managing d
 ## Installation
 
 ```shell
-pip install data-singleton
+mkdir data_singleton && cd data_singleton && git clone https://github.com/charlpcronje/Python-Data-Singleton.git .
 ```
 
 ## Usage
