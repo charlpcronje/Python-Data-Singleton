@@ -1,0 +1,16 @@
+# environment.yml
+
+name: pulse_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - flask=3.0.2=pyhd8ed1ab_0
+  - flask-migrate=4.0.7=pyhd8ed1ab_0
+  - python=3.8.19=hd12c33a_0_cpython
+  - python-dotenv=1.0.1=pyhd8ed1ab_0
+  - sqlalchemy=2.0.29=py38h01eb140_0
+  - pip:
+      - flask-login==0.6.3
+      - flask-sqlalchemy==3.1.1
+prefix: /usr/local/envs/pulse_env
