@@ -1,3 +1,3 @@
-from data_singleton.base import DataSingleton
+from .base import DataSingleton
 
 __all__ = ['DataSingleton']
